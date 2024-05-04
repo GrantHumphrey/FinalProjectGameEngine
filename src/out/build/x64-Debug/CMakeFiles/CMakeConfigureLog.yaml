@@ -1,0 +1,817 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:5 (PROJECT)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33134 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.38.33134.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/3.27.2-msvc1/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1158 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (PROJECT)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33134 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.38.33134.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/3.27.2-msvc1/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1158 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (PROJECT)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-sat9hd"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-sat9hd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-sat9hd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6ef77
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_6ef77.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_6ef77.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6ef77.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6ef77.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_6ef77.exe /implib:cmTC_6ef77.lib /pdb:cmTC_6ef77.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (PROJECT)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-0q5pif"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-0q5pif"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-0q5pif'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_1dfc4
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_1dfc4.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_1dfc4.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1dfc4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1dfc4.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_1dfc4.exe /implib:cmTC_1dfc4.lib /pdb:cmTC_1dfc4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:121 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_FREE_TYPE"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3t7b02"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3t7b02"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_FREE_TYPE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3t7b02'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_2ece4
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_2ece4.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_2ece4.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-3t7b02\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2ece4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2ece4.dir\\CheckSymbolExists.c.obj  /out:cmTC_2ece4.exe /implib:cmTC_2ece4.lib /pdb:cmTC_2ece4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:124 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_FREE_TYPE_GL_FONTS"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-eyyel5"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-eyyel5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_FREE_TYPE_GL_FONTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-eyyel5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_347a0
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_347a0.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_347a0.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-eyyel5\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_347a0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_347a0.dir\\CheckSymbolExists.c.obj  /out:cmTC_347a0.exe /implib:cmTC_347a0.lib /pdb:cmTC_347a0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:127 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_FONTS"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ihxv1i"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ihxv1i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_FONTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ihxv1i'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e74ef
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_e74ef.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_e74ef.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ihxv1i\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_e74ef.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_e74ef.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_e74ef.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ihxv1i\\CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ihxv1i\\CheckSymbolExists.c(8): error C2065: 'AFTR_CONFIG_USE_FONTS': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:130 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_OCULUS_RIFT_OVR"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cxkjdb"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cxkjdb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_OCULUS_RIFT_OVR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cxkjdb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_81e20
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_81e20.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_81e20.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-cxkjdb\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_81e20.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_81e20.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_81e20.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-cxkjdb\\CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-cxkjdb\\CheckSymbolExists.c(8): error C2065: 'AFTR_CONFIG_USE_OCULUS_RIFT_OVR': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:133 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_OCULUS_RIFT_DK2"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5u1z31"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5u1z31"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_OCULUS_RIFT_DK2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5u1z31'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_fb016
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_fb016.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_fb016.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-5u1z31\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_fb016.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_fb016.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_fb016.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-5u1z31\\CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-5u1z31\\CheckSymbolExists.c(8): error C2065: 'AFTR_CONFIG_USE_OCULUS_RIFT_DK2': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:136 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_KEYLOK_DONGLE"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-0w388p"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-0w388p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_KEYLOK_DONGLE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-0w388p'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5c51b
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_5c51b.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_5c51b.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0w388p\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_5c51b.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_5c51b.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_5c51b.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0w388p\\CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0w388p\\CheckSymbolExists.c(8): error C2065: 'AFTR_CONFIG_USE_KEYLOK_DONGLE': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:139 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_GDAL"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gowx8r"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gowx8r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_GDAL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gowx8r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_00366
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_00366.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_00366.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gowx8r\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_00366.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_00366.dir\\CheckSymbolExists.c.obj  /out:cmTC_00366.exe /implib:cmTC_00366.lib /pdb:cmTC_00366.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:142 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_ASSIMP"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hgruiw"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hgruiw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_ASSIMP"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hgruiw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5cd7f
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_5cd7f.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_5cd7f.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-hgruiw\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5cd7f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5cd7f.dir\\CheckSymbolExists.c.obj  /out:cmTC_5cd7f.exe /implib:cmTC_5cd7f.lib /pdb:cmTC_5cd7f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:145 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_3DS"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-s0mu9h"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-s0mu9h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_3DS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-s0mu9h'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0bcb1
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_0bcb1.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_0bcb1.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-s0mu9h\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_0bcb1.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_0bcb1.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_0bcb1.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-s0mu9h\\CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-s0mu9h\\CheckSymbolExists.c(8): error C2065: 'AFTR_CONFIG_USE_3DS': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:148 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_IMGUI"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-35k6qb"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-35k6qb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_IMGUI"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-35k6qb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_8fd84
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_8fd84.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_8fd84.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-35k6qb\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8fd84.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8fd84.dir\\CheckSymbolExists.c.obj  /out:cmTC_8fd84.exe /implib:cmTC_8fd84.lib /pdb:cmTC_8fd84.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:151 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_OGL_GLEW"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-emkvup"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-emkvup"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_OGL_GLEW"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-emkvup'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6a025
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_6a025.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_6a025.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-emkvup\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6a025.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6a025.dir\\CheckSymbolExists.c.obj  /out:cmTC_6a025.exe /implib:cmTC_6a025.lib /pdb:cmTC_6a025.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:154 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_FMT_LIB"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-u01w8n"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-u01w8n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_FMT_LIB"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-u01w8n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_301de
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_301de.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_301de.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-u01w8n\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_301de.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_301de.dir\\CheckSymbolExists.c.obj  /out:cmTC_301de.exe /implib:cmTC_301de.lib /pdb:cmTC_301de.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:157 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_RANGE_V3_LIB"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-168hi7"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-168hi7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_RANGE_V3_LIB"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-168hi7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_01e8c
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_01e8c.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_01e8c.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-168hi7\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_01e8c.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_01e8c.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_01e8c.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-168hi7\\CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-168hi7\\CheckSymbolExists.c(8): error C2065: 'AFTR_CONFIG_USE_RANGE_V3_LIB': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:160 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_EIGEN_V3"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-imgmfh"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-imgmfh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_EIGEN_V3"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-imgmfh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6b885
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_6b885.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_6b885.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-imgmfh\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6b885.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6b885.dir\\CheckSymbolExists.c.obj  /out:cmTC_6b885.exe /implib:cmTC_6b885.lib /pdb:cmTC_6b885.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:163 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_GTEST_LIB"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-iri5er"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-iri5er"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_GTEST_LIB"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-iri5er'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4e55b
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_4e55b.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_4e55b.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-iri5er\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_4e55b.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_4e55b.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_4e55b.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-iri5er\\CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-iri5er\\CheckSymbolExists.c(8): error C2065: 'AFTR_CONFIG_USE_GTEST_LIB': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:166 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_CAL3D"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-02urso"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-02urso"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_CAL3D"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-02urso'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_bb9c1
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_bb9c1.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_bb9c1.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-02urso\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_bb9c1.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_bb9c1.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_bb9c1.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-02urso\\CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-02urso\\CheckSymbolExists.c(8): error C2065: 'AFTR_CONFIG_USE_CAL3D': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:169 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_ODE"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-z8bgdb"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-z8bgdb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_ODE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-z8bgdb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_58537
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_58537.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_58537.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-z8bgdb\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_58537.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_58537.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_58537.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-z8bgdb\\CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-z8bgdb\\CheckSymbolExists.c(8): error C2065: 'AFTR_CONFIG_USE_ODE': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:172 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_BOOST"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-k61815"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-k61815"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_BOOST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-k61815'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_def30
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_def30.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_def30.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-k61815\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_def30.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_def30.dir\\CheckSymbolExists.c.obj  /out:cmTC_def30.exe /implib:cmTC_def30.lib /pdb:cmTC_def30.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/boost_thread-1.80.0/boost_thread-config.cmake:118 (find_dependency)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/Boost-1.80.0/BoostConfig.cmake:141 (find_package)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/Boost-1.80.0/BoostConfig.cmake:262 (boost_find_component)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/FindBoost.cmake:594 (find_package)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_FindDependencies.cmake:33 (FIND_PACKAGE)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:49 (aftr_find_build_dependencies)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c8a97g"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c8a97g"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c8a97g'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6bf3c
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_6bf3c.dir\\src.c.obj /FdCMakeFiles\\cmTC_6bf3c.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-c8a97g\\src.c
+        FAILED: CMakeFiles/cmTC_6bf3c.dir/src.c.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_6bf3c.dir\\src.c.obj /FdCMakeFiles\\cmTC_6bf3c.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-c8a97g\\src.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-c8a97g\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/boost_thread-1.80.0/boost_thread-config.cmake:118 (find_dependency)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/Boost-1.80.0/BoostConfig.cmake:141 (find_package)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/Boost-1.80.0/BoostConfig.cmake:262 (boost_find_component)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/FindBoost.cmake:594 (find_package)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_FindDependencies.cmake:33 (FIND_PACKAGE)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:49 (aftr_find_build_dependencies)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-l3oyvh"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-l3oyvh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-l3oyvh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ad3a0
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_ad3a0.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_ad3a0.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-l3oyvh\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ad3a0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ad3a0.dir\\CheckFunctionExists.c.obj  /out:cmTC_ad3a0.exe /implib:cmTC_ad3a0.lib /pdb:cmTC_ad3a0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_ad3a0.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ad3a0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ad3a0.dir\\CheckFunctionExists.c.obj  /out:cmTC_ad3a0.exe /implib:cmTC_ad3a0.lib /pdb:cmTC_ad3a0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ad3a0.dir\\CheckFunctionExists.c.obj /out:cmTC_ad3a0.exe /implib:cmTC_ad3a0.lib /pdb:cmTC_ad3a0.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ad3a0.dir/intermediate.manifest CMakeFiles\\cmTC_ad3a0.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/boost_thread-1.80.0/boost_thread-config.cmake:118 (find_dependency)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/Boost-1.80.0/BoostConfig.cmake:141 (find_package)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/Boost-1.80.0/BoostConfig.cmake:262 (boost_find_component)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/FindBoost.cmake:594 (find_package)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_FindDependencies.cmake:33 (FIND_PACKAGE)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:49 (aftr_find_build_dependencies)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kqo999"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kqo999"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kqo999'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0418b
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_0418b.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_0418b.dir\\ /FS -c C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\src\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-kqo999\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0418b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0418b.dir\\CheckFunctionExists.c.obj  /out:cmTC_0418b.exe /implib:cmTC_0418b.lib /pdb:cmTC_0418b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_0418b.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0418b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0418b.dir\\CheckFunctionExists.c.obj  /out:cmTC_0418b.exe /implib:cmTC_0418b.lib /pdb:cmTC_0418b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0418b.dir\\CheckFunctionExists.c.obj /out:cmTC_0418b.exe /implib:cmTC_0418b.lib /pdb:cmTC_0418b.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_0418b.dir/intermediate.manifest CMakeFiles\\cmTC_0418b.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
